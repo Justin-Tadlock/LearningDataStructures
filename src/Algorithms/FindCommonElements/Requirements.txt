@@ -1,0 +1,11 @@
+Method should take in two integer arrays and return a new Integer array that contains the common elements within the two arrays.
+
+Example:
+    FindCommonElements(new int[] {1,3,4,6,7,9}, new int[] {1,2,4,5,9,10})
+    should return with {1,4,9}
+
+Assumptions:
+    Both integers are sorted.
+    The arrays can vary in size.
+
+Try to solve in O(n).

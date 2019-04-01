@@ -1,0 +1,19 @@
+Method(s) must serialize a binary tree into a string.
+The string must then be able to be deserialized into a binary tree while retaining
+    its original form.
+
+Example:
+    A binary tree below:
+     10
+   /    \
+  7      15
+ / \      \
+1   2      17
+
+    Will serialize to a given string.
+    Then you must use that generated string to rebuild the binary tree above.
+
+Assumptions:
+    Each Node will have a value, a left node, and a right node.
+    Node values will always be positive.
+

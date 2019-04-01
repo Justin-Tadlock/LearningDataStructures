@@ -1,0 +1,13 @@
+Method must return a Character from a given string that does not repeat.
+
+Example:
+    FindNonRepeating("abcab")
+    should return 'c'
+
+Assumptions:
+    The string will be all lowercase.
+    The string size will vary.
+    If all characters repeat, should return null.
+    If all characters do not repeat, return the first found character.
+
+Try to solve in O(n)

@@ -1,0 +1,11 @@
+Method must return the most frequent integer within a given integer array.
+
+Example:
+    FindMostFrequent(new int[] {3,2,2,1,3,2,1})
+    should return 2.
+
+Assumptions:
+    The string will be all uppercase.
+    The string size will vary.
+
+Try to solve in O(n)

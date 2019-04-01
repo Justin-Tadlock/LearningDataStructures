@@ -1,0 +1,17 @@
+Method must return a boolean to tell whether the two given strings are one edit away from being identical.
+
+Example:
+    IsOneEditAway("abcde", "abcd")
+    should return 'true'
+
+    IsOneEditAway("abc", "abcde")
+    should return 'false'
+
+Assumptions:
+    The string will be all lowercase.
+    The string size will vary.
+    A length difference of 2+ should return false as they are more than 1 edit away.
+    A length of 1 for both strings should return true because a string of len 1 is one edit away.
+
+
+Try to solve in O(n)

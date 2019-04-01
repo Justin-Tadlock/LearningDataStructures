@@ -1,0 +1,17 @@
+A happy number, starting with a positive integer...
+    Take the sum of the square of each digit (base 10)
+    If the sum is '1', then the original number is "happy"
+    if you detect a cycle, then the number is not happy
+    replace the previous sum with the new sum and repeat
+
+Small Example:
+    25 -> 2^2 + 5^2 = 29
+    29 is not 1 and no cycle is detected
+    29 -> 2^2 + 9^2 = 85
+    ...
+
+TODO:
+Implement code which accepts a positive integer and returns an indication of whether the input was happy or not.
+
+Assumptions
+    The number will be positive

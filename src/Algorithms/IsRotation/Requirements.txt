@@ -1,0 +1,10 @@
+Method must return a boolean whether the two given integer arrays are a rotation of each other.
+
+Example:
+    IsRotation({1,2,3,4,5,6,7}, {4,5,6,7,1,2,3})
+    should return 'true'.
+
+Assumptions:
+    The arrays should be of the same size. If not, return false.
+
+Try to solve in O(n)

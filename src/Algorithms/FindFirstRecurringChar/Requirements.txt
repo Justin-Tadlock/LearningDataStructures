@@ -1,0 +1,11 @@
+Method must return the first found character in a given string that repeats.
+
+Example:
+    FindFirstRecurringChar("TESTER");
+    should return with 'T'.
+
+Assumptions:
+    The string will be all uppercase.
+    The string size will vary.
+
+Try to solve in O(n)
